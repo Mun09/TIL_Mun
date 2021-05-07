@@ -1,5 +1,8 @@
 # TIL_Mun
 
 
-this is my algorithm studying place.
+This is my Algorithm studying place.
 
+Codeforce
+Baekjoon
+Codejam
