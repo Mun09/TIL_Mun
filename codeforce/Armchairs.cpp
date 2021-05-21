@@ -19,7 +19,7 @@ int main(){
             if(dp[i][j]==inf) continue;
             dp[i+1][j]=min(dp[i+1][j],dp[i][j]);
             if(j<k &&!a[i]){
-                dp[i+1][j+1]=min(dp[i+1][j+1],dp[i+1][j]+abs(pos[j]-i));
+                dp[i+1][j+1]=min(dp[i+1][j+1],dp[i][j]+abs(pos[j]-i));
             }
         }
     }
